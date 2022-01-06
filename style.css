@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poppins:wght@300&display=swap');
+* {
+    font-family: 'nunito', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.img {
+    width: 100%;
+    margin: 0;
+}
+
+.title {
+    color: #A47E59;
+    font-weight: 800;
+    font-size: 15px;
+    margin: 0;
+}
+
+.titlehead {
+    font-weight: bold;
+    font-size: 64px;
+    color: #B69B78;
+    margin: 0;
+}
+
+.titleheadd {
+    color: #8BBA70;
+}
+
+.subtitle {
+    margin: 0.5rem 1rem 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #A47E59;
+}
+
+.list {
+    display: flex;
+    margin: 2rem 0.5rem;
+}
+
+.item_left,
+.item_right {
+    flex: 50%;
+}
+
+.item {
+    background-color: #8BBA70;
+    margin: 0.5rem;
+    padding: 13px 0;
+    border-radius: 13px;
+}
+
+.item:hover {
+    background-color: #6a9153;
+}
+
+.item_text {
+    font-weight: 800;
+    font-size: 14px;
+    color: #fff;
+}
+
+.text-none {
+    text-decoration: none;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    color: #8BBA70;
+}
+
+.icon_item {
+    flex: 20%;
+    font-size: 25px;
+    color: #6a9153;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 567px) {
+    .container {
+        margin: 0 10rem;
+    }
+    .img {
+        width: 350px;
+    }
+}
